@@ -1,7 +1,7 @@
 jquery.wakeup-plugin
 ====================
 
-A JQuery plugin that will help detecting waking up from sleep and/or hibernation and executing assigned functions.
+An AMD wrapper of the JQuery plugin that will help detecting waking up from sleep and/or hibernation and executing assigned functions. This will allow us using this with RequireJS
 
 Based on code provided by Andrew Mu: http://stackoverflow.com/questions/4079115
 
