@@ -22,7 +22,8 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  * 
  */
-(function ($, document, undefined) {
+require('jquery',
+function ($) {
 	var default_wakeup_interval = 1000;
 	var wake_up_ids = new Array();
 	// returns intervalId, which can be used to cancel future waking
@@ -64,6 +65,5 @@
 				clearInterval(interval_id)
 			});
 		wake_up_ids = new Array();
-	};
-	
-})(jQuery, document);
+	};	
+});
