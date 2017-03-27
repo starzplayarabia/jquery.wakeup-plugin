@@ -1,0 +1,17 @@
+{
+  "name": "jquery.wakeup-plugin.amd",
+  "homepage": "https://github.com/starzplayarabia/jquery.wakeup-plugin",
+  "authors": [
+    "Markel Arizaga <markel.arizaga@starzplayarabia.com>"
+  ],
+  "description": "AMD wrapper of the jquery wakeup plugin",
+  "main": "jquery.wakeup/src/jquery.wakeup.js",
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
