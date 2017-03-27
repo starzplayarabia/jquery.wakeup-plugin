@@ -22,7 +22,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  * 
  */
-require('jquery',
+require(['jquery'],
 function ($) {
 	var default_wakeup_interval = 1000;
 	var wake_up_ids = new Array();
